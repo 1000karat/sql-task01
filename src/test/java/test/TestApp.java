@@ -102,14 +102,14 @@ public class TestApp {
 
         VerificationPage verificationPage = new VerificationPage();
         verificationPage.setCode(Constants.ERROR_WEB_CODE);
-        verificationPage.codeValueDelete();
         verificationPage.failed();
+        verificationPage.codeValueDelete();
         verificationPage.setCode(Constants.ERROR_WEB_CODE);
-        verificationPage.codeValueDelete();
         verificationPage.failed();
+        verificationPage.codeValueDelete();
         verificationPage.setCode(Constants.ERROR_WEB_CODE);
-        verificationPage.codeValueDelete();
         verificationPage.failed();
+        verificationPage.codeValueDelete();
         verificationPage.setCode(sqlQuery.getValidCode());
 
         DashboardPage dashboardPage = new DashboardPage();
